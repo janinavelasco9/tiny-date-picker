@@ -300,7 +300,7 @@
 
   function shimCustomEvent() {
     if(typeof window === 'undefined') {return;}
-    console.log('hi-------------------');
+
     var CustomEvent = window.CustomEvent;
 
     if (typeof CustomEvent !== 'function') {
